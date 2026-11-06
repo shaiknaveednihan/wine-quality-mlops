@@ -1,0 +1,22 @@
+{
+  "rows": 1359,
+  "features": [
+    "fixed acidity",
+    "volatile acidity",
+    "citric acid",
+    "residual sugar",
+    "chlorides",
+    "free sulfur dioxide",
+    "total sulfur dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol"
+  ],
+  "metrics": {
+    "rmse": 0.6152817911037579,
+    "mae": 0.46466718051680495,
+    "r2": 0.46556285695793775
+  },
+  "quality_gate_passed": true
+}

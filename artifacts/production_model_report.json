@@ -1,0 +1,18 @@
+{
+  "model": "Wine_Quality_Production_Model",
+  "stage": "Production",
+  "status": "READY",
+  "version": 8,
+  "run_id": "f9a9351b56b343a2af6676a96f73c86a",
+  "metrics": {
+    "rmse": 0.6152817911037579,
+    "mae": 0.46466718051680495,
+    "r2": 0.46556285695793775
+  },
+  "quality_gate": {
+    "metric": "r2",
+    "minimum": 0.3,
+    "passed": true
+  },
+  "quality_gate_passed": true
+}

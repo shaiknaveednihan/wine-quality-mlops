@@ -1,0 +1,6 @@
+{
+  "metric": "r2",
+  "minimum": 0.3,
+  "actual": 0.46556285695793775,
+  "passed": true
+}

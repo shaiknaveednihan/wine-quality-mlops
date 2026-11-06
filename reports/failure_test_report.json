@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "dataset_valid": true,
+    "quality_gate_accepts_threshold": true,
+    "quality_gate_rejects_below_threshold": true,
+    "quality_gate_rejects_non_finite": true
+  },
+  "errors": {},
+  "passed": true
+}

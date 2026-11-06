@@ -1,0 +1,67 @@
+{
+  "method": "two-sample Kolmogorov-Smirnov test",
+  "p_value_threshold": 0.05,
+  "comparison": {
+    "baseline_rows": 1119,
+    "current_rows": 480,
+    "source": "data/raw/winequality-red.csv"
+  },
+  "features": {
+    "fixed acidity": {
+      "ks_statistic": 0.03330540661304737,
+      "p_value": 0.8345414417706755,
+      "drift_detected": false
+    },
+    "volatile acidity": {
+      "ks_statistic": 0.025569705093833717,
+      "p_value": 0.975478995948596,
+      "drift_detected": false
+    },
+    "citric acid": {
+      "ks_statistic": 0.03676273458445045,
+      "p_value": 0.736445388751044,
+      "drift_detected": false
+    },
+    "residual sugar": {
+      "ks_statistic": 0.06286304736371762,
+      "p_value": 0.13343204098566455,
+      "drift_detected": false
+    },
+    "chlorides": {
+      "ks_statistic": 0.041180741733690795,
+      "p_value": 0.6008900153525037,
+      "drift_detected": false
+    },
+    "free sulfur dioxide": {
+      "ks_statistic": 0.03981233243967819,
+      "p_value": 0.6426055012117688,
+      "drift_detected": false
+    },
+    "total sulfur dioxide": {
+      "ks_statistic": 0.025178731009830257,
+      "p_value": 0.9789200990577184,
+      "drift_detected": false
+    },
+    "density": {
+      "ks_statistic": 0.030423369079535245,
+      "p_value": 0.9031880069335299,
+      "drift_detected": false
+    },
+    "pH": {
+      "ks_statistic": 0.04807864164432529,
+      "p_value": 0.40353321419500837,
+      "drift_detected": false
+    },
+    "sulphates": {
+      "ks_statistic": 0.023084226988382528,
+      "p_value": 0.9917474369788905,
+      "drift_detected": false
+    },
+    "alcohol": {
+      "ks_statistic": 0.0651418677390527,
+      "p_value": 0.10952557841728063,
+      "drift_detected": false
+    }
+  },
+  "drift_detected": false
+}
